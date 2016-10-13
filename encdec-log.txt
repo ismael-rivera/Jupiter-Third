@@ -1,0 +1,2 @@
+openssl des3 -in pci-feed.js -out enc-pci-feed.js
+pass: scarsdale-burrows
