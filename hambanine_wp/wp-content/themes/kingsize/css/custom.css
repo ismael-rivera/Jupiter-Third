@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body p{
+	color: #333;	
+	}
+
+.scroller{
+	height: 318px;
+	width: 60%;
+	border: 1px solid #000;
+	position: absolute;
+	z-index: 12;
+	top: 54px;
+	left: 23%;
+    moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+    
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+	zoom: 1;
+}
+.scroller_wrap{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	}
+.custom_pattern_bg{
+	background: #FFF url(../images/background/holycrosslogo3.png) repeat -70px 0px;
+	}
+#hamba_fullsite_bg_wrap{
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 1px solid #0F0;*/
+	position: relative;
+	}
+#hamba_fullsite_bg_wrap, #splash_bg{
+	width: 100%;
+	} 			
+#splash_bg{
+	height: 1024px;
+	background: url(../images/background/heaven.jpg) repeat-x;
+	position: absolute;
+	z-index: 10;
+	left: 0px;
+	top: 0px;
+	border-bottom: 1px solid #000;
+	/*border-top: 1px solid #000;*/
+	}
+.squares{
+	height: auto;
+	width: auto;
+	background: #fff;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 10px;
+}
+.slid_sq_p{
+	display: block;
+	height: auto;
+	width: auto;
+	/*border: 1px solid #F00;*/
+	}
+.marquee0{
+	border: 1px solid #fff;
+}		
+.marquee1{
+	height: 220px !important;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*border: 1px solid #FF0;*/
+	background: url(../images/scroller_bg.png);
+	}	
+.vet{
+	float: right;	
+	}
+.test_console{
+	color: #000;
+	background: #fff;
+	height: auto;
+	width: auto;
+	display: block;
+	padding: 20px;
+	position: absolute;
+	x-index: 1500;
+	top: 20px;
+	left: 20px;
+	border: 2px solid #FF0;
+	}	
+.logo_image{
+	/*background: 20px 120px !important;*/	
+	}
+li.current-menu-item a strong{
+	color: #000;
+	}	
+#wpfh_search form div input[type="submit"]{
+	border: 1px solid #999;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center !important;
+	}	
+#wpfh_search{
+	color: #ccc;
+	background: #000 !important;
+	border: 1px solid #ccc;
+	}
+#wpfh_search h3{
+	color: #ccc !important;
+	}		
+input[type="submit"]{
+	cursor: pointer;	
+	}
+input[type="submit"]:hover{
+	background: #333;
+	}
+.textbox{
+	background: #666;
+	color: #fff;	
+	}
+.iro_obit_header{
+	width: 680px;
+	height: 200px;
+	/*border: 1px solid #333;*/
+	background: url(../images/background/firebrush.jpg) no-repeat -20px -40px;
+	position: relative;
+	}
+.iro_obit_photo{
+	float: right;
+	position: absolute;
+	z-index: 100;
+	top: 110px;
+	right: 30px;
+	background:#fff;
+	padding: 10px;
+	}	
+.iro_added_header{
+	width: 678px;
+	/*border: 1px solid #333;*/
+	position: relative;
+	}
+.iro_reg_symb{
+	height: 100px;
+	width: 75px;
+	border: 1px solid #333;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	}	
+.iro_h001, .iro_a001{
+	margin-bottom: 0px !important;
+	text-align: center;	
+	/*border: 1px solid #F00;*/
+	}
+.iro_h001{
+	margin-top: 10px !important;
+	}		
+.iro_a001{
+	/*border: 1px solid #F00;*/
+	}
+.wpfh_obit_date{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	}				
+	
+						
+	
+	
+

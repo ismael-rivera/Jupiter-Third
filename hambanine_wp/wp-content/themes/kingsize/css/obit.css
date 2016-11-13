@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wpfh_obits, .wpfh_obit_thumbnail{
+	background: #fff !important;
+	}
+.wpfh_obit_thumbnail{
+	padding-right: 0px !important;
+	padding-left: 0px !important;	
+	}
+.wpfh_obit_thumbnail.wpfh_obit_vet{
+	background: #FFF url(none) !important;
+	}		
+.wpfh_obit_obit, .wpfh_obit_date p, #wpfh_obits a{
+	color: #000 !important;	
+	}
+#wpfh_obits a:hover{
+	color: #2457BC !important;
+	}	
+.wpfh_obit_date{
+	color: #0F0 !important;
+	/*border: 1px solid #F00;*/
+	}
+		

@@ -1,0 +1,75 @@
+/*
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//CODEBASE COMMENTARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+*/
+/*
+//PLEASE KEEP THIS FILE IN YOUR PLUGINS FOLDER AND DO NOT DELETE IT
+//AS IT CONTAINS IMPORTANT DATA REGARDING NON OFFICIAL CHANGES TO 
+//TO EACH OF THE PLUGINS.
+//IN FOLLOWING VERSIONS I WILL ATTACH A SCRIPT THAT CREATES AND LOGS FOR EACH ERROR AND DOCUMENTATION 
+//WITH AN EXAMPLE ON HOW TO READ THE FOLLOWING LOG
+//AND LOCATE EACH CHANGE THAT HAS BEEN LOGGED.
+//
+//
+//LOG# N - DD/MM/YY
+//ERROR:
+//PLUGIN:
+//FILE:
+//FILE DIRECTORY:
+//CODE LINE:
+//FIX:
+//
+//
+******************************************************
+*
+* _______  ___   __   __    ___      _______  _______ 
+*|       ||   | |  |_|  |  |   |    |       ||       |
+*|    ___||   | |       |  |   |    |   _   ||    ___|
+*|   |___ |   | |       |  |   |    |  | |  ||   | __ 
+*|    ___||   |  |     |   |   |___ |  |_|  ||   ||  |
+*|   |    |   | |   _   |  |       ||       ||   |_| |
+*|___|    |___| |__| |__|  |_______||_______||_______|
+**
+*						v.0.01
+/******************************************************
+*
+*/
+/*
+FIX LOG
+I was trying to figure out a way to do this in a manner that could easily *be reapplied if the plugins where to get upgraded. In the end, this is *mainly, the only thing I can do, which is to log every change and go through each error I find one by one reapplying them as there seems to be no api to connect with plugins. I'm sure there is a way but it is not well documented and so the following changes should be reapplied in case of a plugin upgrade.
+*/
+*/
+/*******************************************************/
+/*
+LIST OF ERRORS
+Deprecated 	Assigning the return value of new by reference is deprecated on line 53 in file wp-content/plugins/theme-my-login/theme-my-login.php
+Deprecated 	Assigning the return value of new by reference is deprecated on line 69 in file wp-content/plugins/theme-my-login/theme-my-login.php
+Deprecated 	Assigning the return value of new by reference is deprecated on line 79 in file wp-content/plugins/theme-my-login/theme-my-login.php
+Strict 	Redefining already defined constructor for class Theme_My_Login on line 78 in file wp-content/plugins/theme-my-login/includes/class-theme-my-login.php
+Deprecated 	Assigning the return value of new by reference is deprecated on line 707 in file wp-content/plugins/theme-my-login/includes/class-theme-my-login.php
+Strict 	Redefining already defined constructor for class Theme_My_Login_Template on line 571 in file wp-content/plugins/theme-my-login/includes/class-theme-my-login-template.php
+Strict 	Redefining already defined constructor for class Theme_My_Login_Module on line 48 in file wp-content/plugins/theme-my-login/includes/class-theme-my-login-module.php
+Strict 	Redefining already defined constructor for class Theme_My_Login_Admin on line 750 in file wp-content/plugins/theme-my-login/admin/class-theme-my-login-admin.php
+Notice 	Trying to get property of non-object on line 578 in file wp-content/plugins/wp-funeral-press/user/obits.php
+Notice 	Undefined index: id on line 619 in file wp-content/plugins/wp-funeral-press/user/obits.php
+Strict 	Declaration of Portfolio_Walker::start_el() should be compatible with Walker::start_el(&$output, $object, $depth, $args, $current_object_id = 0) on line 362 in file wp-content/themes/kingsize/functions.php
+Strict 	Declaration of description_walker::start_el() should be compatible with Walker::start_el(&$output, $object, $depth, $args, $current_object_id = 0) on line 46 in file wp-content/themes/kingsize/lib/menu-walker.php
+Strict 	call_user_func_array() expects parameter 1 to be a valid callback, non-static method wpfh_user_widgets::register_latest_obits() should not be called statically on line 406 in file wp-includes/plugin.php
+Notice 	Use of undefined constant update_notifier - assumed 'update_notifier' on line 8 in file wp-content/themes/kingsize/lib/theme-update-notification.php
+Notice 	Undefined index: page on line 618 in file wp-content/themes/kingsize/lib/theme-options.php
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

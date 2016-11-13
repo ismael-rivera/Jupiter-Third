@@ -1,0 +1,4 @@
+WP ADMIN
+-----------------------
+login: coralblue79
+password: speggodesign

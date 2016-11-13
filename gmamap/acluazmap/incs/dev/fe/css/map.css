@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#content{
+	display: block;
+	height: 100%;
+	width: auto;
+	position: static;
+	}
+#map_canvas, #loadingDiv{
+	height: 100%;
+	user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	}
+.gmnoscreen{
+	}
+.gmnoprint{
+	display: block;
+	}	
+#loadingDiv{
+	background: url(../img/ajax-loader.gif) no-repeat 50% 50%;
+	}	
+	
+#map_cpanel{
+	border: 1px solid #333;
+	position: absolute;
+	top: 115px;
+	right: 70px;
+	z-index: 800;
+	}
+	
+.zoom, #map_cpanel{
+	width: 100%;
+	height: 100%;
+	}	
+
+
+
+div.gmnoprint{}
+.marker_symbol{
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+	background: url(../images/markers/marker1-ref24x24.png) no-repeat;
+	}
+
+#markerOutput{
+	/*border: 1px solid #0F0;*/	
+	}	
+	
+@media print{.gmnoprint{display:none}}
+@media screen{.gmnoscreen{display:none}}	
+/*------------------------------------------------------------------*/
+
+
+
+

@@ -1,0 +1,221 @@
+
+/* IE (all versions) */
+/* ----------------------------------------- */
+
+.ie #top_menu{
+	top: 91px;
+	}
+
+.ie #top_menu li, .ie #top_menu li a, .ie #footer_menu li, .ie #footer_menu li a{
+	float: left;
+	}
+.ie #top_menu li{
+	margin-left: 2px !important;	
+	}	
+.ie .grid_table, ie #slideshow{
+	position: relative;
+	}
+.ie #next, .ie #prev{
+	top: -195px;	
+}
+	
+.ie #prev{
+	left: 0px
+	}	
+	
+.ie #next{
+	right:2px;
+	}
+.ie .cs{
+	font: bold 14px Play, Geneva, sans-serif;
+	}	
+			
+	
+/* IE5 */
+/* ----------------------------------------- */
+
+/* IE 5.5 */
+/* ----------------------------------------- */
+
+/* IE 6 */
+/* ----------------------------------------- */
+
+/* IE 7 */
+/* ----------------------------------------- */
+
+
+#ie6 .panel-buttons, #ie7 .panel-buttons{
+	border: 0px solid #F00;		
+	}
+	 	
+/*#ie7 .readmore{
+	background: url(../images/slider/slide_btns.png) no-repeat 0px -62px;
+	margin-right: 20px;
+	}
+#ie7 .readmore:hover{
+	background: url(../images/slider/slide_btns.png) no-repeat 0px -93px;
+	}	
+#ie7 .booknow{
+	background: url(../images/slider/slide_btns.png) no-repeat 0px 0px;	
+	}										
+#ie7 .booknow:hover{
+	background: url(../images/slider/slide_btns.png) no-repeat 0px -31px;
+	}*/
+
+
+
+ 
+#ie6 #slider, #ie7 #slider{
+	background:  none;
+	}
+
+#ie6 #top_menu, #ie7 #top_menu{
+	position: absolute;
+	z-index: 9999;
+	top: 91px;
+	right: 0px;
+	clear: both;
+	width: 100%;
+	}
+
+#ie6 #top_menu li, #ie7 #top_menu li{
+	margin-left: 3px;
+	zoom:1; 
+	*display: inline; 
+	_height: 30px;
+    -webkit-border-radius:   4px 4px 0 0 / 4px 4px 0 0;
+    -moz-border-radius:            4px 4px 0 0 / 4px 4px 0 0;
+    -khtml-border-radius:            4px 4px 0 0 / 4px 4px 0 0;
+    border-radius:         4px 4px 0 0 / 4px 4px 0 0;
+    position: relative;
+    behavior: url(http://testing.speggo.com/PIE.php);
+}
+
+
+
+#ie6 .promo_tile_button, #ie7 .promo_tile_button{
+	text-shadow: -1px -1px #d49e67, 0px 0px #fff;
+	-moz-border-radius: 4px; /* Firefox */
+	-webkit-border-radius: 4px; /* Safari, Chrome */
+	-khtml-border-radius: 4px;
+	border-radius: 4px; /* CSS3 */
+	behavior: url(http://testing.speggo.com/PIE.php);
+	}
+	
+#ie6 .page_header, #ie7 .page_header{
+	-moz-border-radius: 5px 0 0 0; 
+	-webkit-border-radius: 5px 0 0 0;
+	border-radius: 5px 0 0 0;
+	behavior: url(http://testing.speggo.com/PIE.php);
+	}	
+
+#ie6 #content, #ie7 #content {
+	-moz-border-radius: 5px 0 5px 5px; 
+	-webkit-border-radius: 5px 0 5px 5px;
+	border-radius: 5px 0 5px 5px;
+	behavior: url(http://testing.speggo.com/PIE.php);
+}	
+
+#ie6 .page_header h2, #ie7 .page_header h2{
+	-moz-border-radius: 5px 0px 0 0 ;
+	-webkit-border-radius: 5px 0px 0 0;
+	border-radius: 5px 0px 0 0;
+	behavior: url(http://testing.speggo.com/PIE.php);
+	/*border: 1px solid #00F;*/
+	}
+
+#ie6 #top_menu, #ie7 #top_menu{
+	top: 101px;
+	}
+	
+#ie6 .srvcs_list, #ie7 .srvcs_list{
+	margin-top: 10px;	
+	}
+	
+#ie6 .srvcs_list li, #ie7 .srvcs_list li{
+	padding-top: 2px;
+	padding-bottom: 4px;
+	}			
+
+#ie6 .promo_list li, #ie7 .promo_list li{
+	width: 224px;
+	float: none;
+	color: #4c6680;
+	list-style-image: url(http://thatretailcompany.com.au/wp-content/uploads/TRC_Services_bullet.png);
+	font: 12px/16px Arial, Helvetica, sans-serif;
+	padding-bottom: 6px;
+	margin-left: -20px !important;
+	text-align: left;
+	}
+	
+[if IE] #ie6 #accordion h3, #ie7 #accordion h3{
+	padding-top: 0px;
+	font: bold 24px Play, Geneva, sans-serif !important;
+}
+
+[if IE] #ie6 .ui-icon-arrow-1-up, #ie7 .ui-icon-arrow-1-up{
+	background: url(../images/accordion_arrows.png) no-repeat 0px 1px;
+	}
+
+[if IE] #ie6 .ui-icon-arrow-1-down, #ie7 .ui-icon-arrow-1-down{
+	background: url(../images/accordion_arrows.png) no-repeat 0px -32px;
+	}	
+	
+srvcs_graphic{}
+	
+#ie6 #footer, #ie7 #footer{
+	margin-bottom: 50px; 
+	}
+#ie6 #content, #ie7 #content{
+	margin-top: 10px;
+	}
+#ie6 .promotiles_inner, #ie7 .promotiles_inner{
+	width: 88%;
+	}
+#ie6 #nav, #ie7 #nav{
+	height: 56px;
+	}
+#ie6 #nav li, #ie7 #nav li{
+	zoom:1; 
+	*display: inline; 
+	_height: 30px;
+	}
+#ie6 .gallery-item, #ie7 .gallery-item{
+	width: 134px;
+	max-width: 134px;
+	}				
+#ie6 .form_submit input, #ie7 .form_submit input{
+	padding-bottom: 0px;
+	padding-top: 0px; 
+	height: 28px; 
+	}	
+	
+#ie7 .promo_tile_icon img {
+	/*border: 1px solid #999 !important;*/
+	}	
+/* IE 9 or greater */
+/* ----------------------------------------- */
+
+#ie9 .ie slideshow{
+	
+	}
+/* IE 8 */
+/* ----------------------------------------- */
+
+#ie8 #slider, #ie7 #slider, #ie6 #slider  {
+	background: #4c6681 url(../images/slider/slider_bg.jpg) no-repeat;
+	behavior: url(http://testing.speggo.com/PIE.php);
+	}
+	
+#ie8 .gallery-item{
+	width: 134px;
+	max-width: 134px;
+	}				
+		
+
+/* IE 8 or lower */
+/* ----------------------------------------- */
+
+
+
+	

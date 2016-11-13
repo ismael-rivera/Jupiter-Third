@@ -1,0 +1,13 @@
+<div id="map-south-africa">
+ <ul class="south-africa">
+  <li class="za1"><a href="#eastern-cape">Eastern Cape</a></li>
+  <li class="za2"><a href="#free-state">Free State</a></li>
+  <li class="za3"><a href="#gauteng">Gauteng</a></li>
+  <li class="za4"><a href="#kwazulu-natal">KwaZulu-Natal</a></li>
+  <li class="za5"><a href="#limpopo">Limpopo</a></li>
+  <li class="za6"><a href="#mpumalanga">Mpumalanga</a></li>
+  <li class="za7"><a href="#northern-cape">Northern Cape</a></li>
+  <li class="za8"><a href="#north-west">North West</a></li>
+  <li class="za9"><a href="#western-cape">Western Cape</a></li>
+ </ul>
+</div>

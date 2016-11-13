@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+div[class^=/ /_ibani_] div{
+	background: #333 !important;	
+	}
+
+/*._ibani_8839 div{
+	background: #096 !important;
+	}*/
+.infoBub{
+	border: 1px solid #CCC;
+	width: 100%;
+	padding: 10px;
+	background: #EEEEEE;
+	}	
+.infobub_content_left, .infobub_content_right{
+	max-width:360px;
+	width: 50%;
+	/*border: 1px solid #F00;*/
+	display: table-cell;
+	padding: 10px;
+	}
+	
+.infobub_content_left{
+	min-width:100px;
+	float: left;
+	vertical-align: top !important;
+	text-align: left;
+	display: block;
+	} 
+
+infobub_content_right{
+	min-width:360px;
+	border: 1px solid #00F;
+	float: right;
+	display: block;
+	}	
+
+#styles, #add-tab {
+        float: left;
+        margin-top: 10px;
+        width: 400px;
+      }
+
+      #styles label,
+      #add-tab label {
+        display: inline-block;
+        width: 130px;
+      }
+
+      .phoney {
+        background: -webkit-gradient(linear,left top,left bottom,color-stop(0, rgb(112,112,112)),color-stop(0.51, rgb(94,94,94)),color-stop(0.52, rgb(57,57,57)));
+        background: -moz-linear-gradient(center top,rgb(112,112,112) 0%,rgb(94,94,94) 51%,rgb(57,57,57) 52%);
+      }
+
+      .phoneytext {
+        text-shadow: 0 -1px 0 #000;
+        color: #fff;
+        font-family: Helvetica Neue, Helvetica, arial;
+        font-size: 18px;
+        line-height: 25px;
+        padding: 4px 45px 4px 15px;
+        font-weight: bold;
+        background: url(../images/arrow.png) 95% 50% no-repeat;
+      }
+
+      .phoneytab {
+        text-shadow: 0 -1px 0 #000;
+        color: #fff;
+        font-family: Helvetica Neue, Helvetica, arial;
+        font-size: 18px;
+        background: rgb(112,112,112) !important;
+      }
+
+/*.popup{	
+	}
+.popup_wrapper{
+	width: 400px;
+	background: #C7C7C7;
+	border: 1px solid #F00;
+	padding: 20px;
+	}
+.marker{
+	border: 1px solid #F00;
+	}*/	
+	
+	
+.bubbleInfo {
+	float: right;
+}
+
+.popup {
+	position: absolute;
+	display: none; /* keeps the popup hidden if no JS available */
+	width: auto;
+	z-index: 999;
+	top: 200px;
+	right: 100px;
+}
+.infowin{
+	background: #fff;
+}
+.infotitle{
+	width: auto;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #999;
+	}
+
+.intit_left{
+	float: left;
+	}
+.intit_right{
+	float: right;
+	text-align: right !important;
+	font-size: 12px;
+	}
+.intit{
+	border-bottom: 1px solid #5293CC;
+	padding-bottom: 10px;
+	}	
+	
+	
+.infowimage img{
+	max-width: 320px;
+	border: 1px solid #999;
+	padding: 10px;
+	background: #FFF;
+	height: auto;
+	width: auto;
+}
+img.fancybox-image{
+	border: 1px solid #ccc;
+	}
+	
+.labels{
+	background: #FFF;
+	border: 2px solid #295479;
+	padding-right: 6px;
+	padding-left: 6px;
+	font-size: 10px;
+	font-weight: bold;
+	}	
+	
+		
+		

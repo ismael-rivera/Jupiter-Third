@@ -1,0 +1,35 @@
+#wpfh-header ul
+{
+list-style:none;margin:0px;padding:0px;
+
+}
+
+#wpfh-header li
+{
+list-style:none;margin:0px;padding:0px;float:left;margin-right:2px;
+
+}
+
+#wpfh-header a
+{
+float:left;	display:block;
+background-color: #c3c9ce;
+color: #ffffff;
+
+text-decoration: none;
+padding-left: 1em;
+padding-right: 1em;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+margin-right:1px;
+font-size:1.2em;font-weight:bold;
+
+
+}
+#wpfh-header .wpfh-clear {clear:both;border-top:1px solid  #c3c9ce}
+#wpfh-header #current a{ background-color:#456782 !important;color:#FFF;}
+#wpfh-header a:hover
+{
+background-color: #c3c9ce;
+color: #000066;
+}

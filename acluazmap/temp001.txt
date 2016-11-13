@@ -1,0 +1,21 @@
+// Start XML file, echo parent node
+    $output = '<markers>';
+
+// Iterate through the rows, printing XML nodes for each
+foreach ($result as $row){
+  // ADD TO XML DOCUMENT NODE
+    $output .= '<marker name="' . parseToXML($row['name']) . '" '; /*wp_posts title*/
+    $output .= 'lat="' . $row['lat'] . '" '; 					   /*postmeta - aclu_az_marker_coords*/
+    $output .= 'lng="' . $row['lng'] . '" '; 					   /*postmeta - aclu_az_marker_coords*/
+    $output .= 'type="' . $row['type'] . '" '; 					   /*postmeta - aclu_az_marker_coords*/
+    $output .= 'image="' . $row['image'] . '" '; 				   /*not sure*/
+    $output .= 'thumb="' . $row['thumb'] . '" '; 				   /*not sure*/
+    $output .= 'icon="' . $row['icon'] . '" '; 					   /*possibly deprecate*/
+    $output .= 'infowindow="' . $row['infowindow'] . '" '; 		   /*wp_posts postcontent*/
+    $output .= '/>';
+      
+}
+// End XML file
+    $output .= '</markers>';
+
+    echo $output;

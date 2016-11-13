@@ -1,0 +1,362 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	background: #EAF6FF url(../img/background.png) no-repeat;
+}
+html{
+	
+	}
+body {
+	/*font-size: 83%;*/
+	position: relative;
+	margin: 0px !important;
+	/*overflow:hidden;*/
+      }
+
+      body, input, textarea {
+        font-family: arial, sans-serif;
+      }
+	  
+	  
+.logo{
+	display: block;
+	float: left;
+	height: 124px;
+	width: 256px;
+	margin-left: 0px;
+	background: url(../img/ari_aclu_logo.png) no-repeat;
+	position: absolute;
+	z-index: 300;
+	left: 0%;
+	top: 0%;
+	}
+	
+#header_wrapper h3 #header_wrapper h1, #header_wrapper h2, #header_wrapper h4, #header_wrapper p{
+	margin:0%; !important
+	}
+
+.grid001{
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+	}
+.grid002{}
+#footer_wrapper{
+	height: auto;
+	width: 25%;
+	position: absolute;
+	margin: 0% auto;
+	color: #FFF;
+	background: #F3F8FB;
+	overflow: hidden;
+	border: 5px solid #F3F8FB;
+	padding: 0px 0px -2px;
+	z-index: 800;
+	right: 0%;
+	bottom: 0%;
+	text-transform: uppercase;
+	}
+#footer_wrapper h3{
+	background: #005E8B;
+	height: auto;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 28px;
+	cursor: pointer;
+	-webkit-user-select: none; /* Chrome/Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+
+/* Rules below not implemented in browsers yet */
+-o-user-select: none;
+user-select: none;
+	}
+#footer_wrapper textarea{
+	resize: none;
+	width: 100%;
+	text-align: center;
+	background: #DCE7ED;
+	border-style: none;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	}		
+#header_wrapper p{
+	margin: 0px;
+	}	
+#header_wrapper{
+	padding: 0% !important;
+	height: 0px;
+	margin-top: 0%;
+	/*background: url(../img/header_bg_02.png) repeat-x 0px -50px;*/
+	/*border-bottom: 7px solid #FFFFFF;*/
+	}
+#header{
+	margin-top: 0%;
+	}
+#header_title{
+	text-indent: -9999px;
+	display: block;
+	vertical-align: bottom;
+	/*background: url(../img/header_title.png) no-repeat 180px 0px;*/
+	height: 74px;
+	width: 100%;
+	}	
+#footer{
+	
+	}
+#map_console{
+	width: 249px;
+	height: 80px;
+	position: absolute;
+	z-index: 300;
+	top: 0px;
+	right: 0px;
+	/*border: 1px solid #FF0;*/
+	}
+#relative_wrap{
+	padding-right: 10px;
+	position: relative;
+	width: 100%;
+	float: right;
+	height: 100%;	
+	/*border: 1px solid #f00;*/
+	}
+.slideout{
+	border: 0px solid #FDFDFD !important;
+	}		
+.activate_console_btn{
+	height: 100px;
+	width: 250px;
+	display: block;
+	/*border: 1px solid #06F;*/
+	position: relative;
+	cursor: pointer;
+	background: url(../img/cpanel_btn.png) no-repeat;
+	}
+.activate_console_btn:hover{
+	background: url(../img/cpanel_btn.png) no-repeat;
+	}	
+.activate_console_btn, #relative_wrap h3{
+	-webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+	}	
+#markers_tab{
+	float:right;
+	color:#fff;
+	}		
+.slideout {
+	width: 100%;
+	float: left;
+	border: 1px solid #666;
+	overflow: hidden;
+	display: block;
+}	
+
+.slideout h3{
+	/*
+	background: #1C4176;
+	color: #FCD21F;
+	display: block;
+	border: 1px solid #0A2144;*/
+	text-transform: capitalize;
+	}
+.tabcontent{
+	max-height: 300px;
+	padding: 0px !important;
+	margin-top: 2px;
+	height: auto;
+	}		
+#cursorCoord{
+	color: #000066;
+	}
+#cursorField{
+	width: 97%;
+	height: 20px;
+	padding: 5px;
+	background: #F6F6F6;
+	color: #333;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font: normal 11px/-6px Monospace;
+	}	
+
+#toolbar_tbl, #markerlist_tbl, #cursorCoord{
+	width: 100%;
+	max-height: 320px;
+	background: #dbdbdb;
+	height: auto;
+	position: relative;
+	border: 1px solid #587278;
+	}
+#toolbar_tbl td, #toolbar_tbl_pop td{
+	padding: 8px;	
+	border: 1px solid #FFF;
+	position: relative;
+	}
+#toolbar_tbl_pop{
+	height: 100% !important;
+	max-height: 800px;
+	}	
+.iconchooserbtn{
+	background: #CCC;
+	border: 1px solid #666;
+	}
+.iconchooserbtn img{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	}	
+#delTable tr.even{
+	background: #DCE7EC !important;
+	}	
+			
+/*.tool_icon{
+	width: 100%;
+	display: block;
+	position: relative;
+	background: #DBDBDB;
+	}*/
+
+.iconchooserbtn, .tool_btn{
+   -webkit-box-shadow: 0 0 4px 1px #666;
+   -moz-box-shadow: 0 0 4px 1px #666;
+   box-shadow: 0 0 4px 1px #666;
+   cursor: pointer;
+	} 
+.iconchooserbtn:hover, .tool_btn:hover{
+   -moz-box-shadow:    inset 0 0 2px #000000;
+   -webkit-box-shadow: inset 0 0 2px #000000;
+   box-shadow:         inset 0 0 2px #000000;
+	}
+.tool_btn{
+	position: relative;
+	height: 38px;
+	width: 111px;
+	border: 1px solid #666;
+	display: block;
+	}
+.tool_btn:hover{
+	}
+		
+					  
+#hand{
+	background: url(../img/btns/tool_btns002.jpg) no-repeat 0px 0px;
+	}
+#marker{
+	background: url(../img/btns/tool_btns002.jpg) no-repeat -111px 0px;
+	}
+#moreicons{
+	background: url(../img/btns/tool_btns002.jpg) no-repeat -222px 0px;
+	}	
+	
+					  
+#hand:hover{
+	background: url(../img/btns/tool_btns002.jpg) no-repeat 0px -38px;
+	}
+#marker:hover{
+	background: url(../img/btns/tool_btns002.jpg) no-repeat -111px -38px;
+	}
+#moreicons:hover{
+	background: url(../img/btns/tool_btns002.jpg) no-repeat -222px -38px;
+	}		
+	
+		
+#eraser{
+	background: url(../img/draw_eraser.png) no-repeat;
+	}
+	
+/*#moreicons, #hand, #marker, #eraser{
+	background: #CCC;
+	}*/	
+	
+textarea{
+	border: 1px solid #587278;
+	width: 350px;
+	}			
+
+.listrecord tr{
+	border-bottom: 1px solid #000 !important;
+	}
+
+/*----------------------MARKERS ON MAP--------------------------*/
+
+
+.delete{
+	background: url(../img/delete.png) no-repeat;
+	height: 16px;
+	width: 16px;
+	display: block;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	}
+.delet{
+	text-align: center;
+	}	
+#delTable{
+	color: #333;
+	background: #dbdbdb;
+	}			
+#delTable th, .tbartbltdhead{
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background: #f6f6f6;
+	border-bottom: 1px solid #999;
+}
+.tbartbltdhead{
+	color: #333;
+	text-align: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	}
+#delTable td{
+	font-size: 14px;
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #DBDBDB;
+	}
+ul.tool_btns{
+	list-style: none;
+	border: 1px solid #CCC;
+	}
+.tool_btns li div, .tool_btns li a{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+.must_admin{
+	font-size: 24px;
+	font-weight: bold;
+	color: #069;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	}
+.edit_small{
+	font-size: 10px;
+	text-align: right;
+	}
+.my-marker{
+	text-align: center;
+	}
+
+/*--------------------END MARKERS ON MAP--------------------------*/	

@@ -1,0 +1,496 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Funeral Press 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-20 10:47-0500\n"
+"PO-Revision-Date: 2012-12-20 10:47-0500\n"
+"Last-Translator: Anthony <anthony@dlgresults.com>\n"
+"Language-Team: smarty <anthony@dlgresults.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/guestbook.php:8
+msgid "View Guestbook Postings"
+msgstr ""
+
+#: ../admin/guestbook.php:10
+#: ../admin/obits.php:209
+#: ../user/obits.php:554
+msgid "Guestbook"
+msgstr ""
+
+#: ../admin/guestbook.php:91
+#: ../user/obits.php:490
+msgid "Posted by"
+msgstr ""
+
+#: ../admin/guestbook.php:95
+msgid "Posting On"
+msgstr ""
+
+#: ../admin/guestbook.php:99
+#: ../user/obits.php:400
+msgid "Message"
+msgstr ""
+
+#: ../admin/guestbook.php:130
+msgid "Approved"
+msgstr ""
+
+#: ../admin/guestbook.php:133
+#: ../admin/obits.php:185
+#: ../admin/obits.php:271
+msgid "Yes"
+msgstr ""
+
+#: ../admin/guestbook.php:134
+#: ../admin/obits.php:183
+#: ../admin/obits.php:270
+msgid "No"
+msgstr ""
+
+#: ../admin/guestbook.php:210
+#: ../admin/obits.php:57
+msgid "Date"
+msgstr ""
+
+#: ../admin/guestbook.php:211
+#: ../admin/obits.php:58
+msgid "Posted On"
+msgstr ""
+
+#: ../admin/guestbook.php:212
+#: ../admin/obits.php:59
+msgid "Poster Name"
+msgstr ""
+
+#: ../admin/guestbook.php:213
+#: ../admin/obits.php:60
+msgid "Type"
+msgstr ""
+
+#: ../admin/guestbook.php:214
+#: ../admin/obits.php:61
+msgid "Message Preview"
+msgstr ""
+
+#: ../admin/guestbook.php:215
+#: ../admin/obits.php:62
+#: ../admin/obits.php:423
+msgid "Action"
+msgstr ""
+
+#: ../admin/guestbook.php:222
+msgid "Found"
+msgstr ""
+
+#: ../admin/guestbook.php:229
+#: ../admin/obits.php:76
+msgid "Unapprove"
+msgstr ""
+
+#: ../admin/guestbook.php:235
+#: ../admin/obits.php:82
+msgid "Approve"
+msgstr ""
+
+#: ../admin/guestbook.php:252
+#: ../admin/obits.php:99
+msgid "View Photo"
+msgstr ""
+
+#: ../admin/guestbook.php:258
+#: ../admin/obits.php:105
+msgid "View Video"
+msgstr ""
+
+#: ../admin/guestbook.php:269
+#: ../admin/obits.php:116
+#: ../admin/obits.php:442
+msgid "Delete"
+msgstr ""
+
+#: ../admin/guestbook.php:270
+#: ../admin/obits.php:8
+#: ../admin/obits.php:117
+msgid "View"
+msgstr ""
+
+#: ../admin/obits.php:9
+msgid "Add"
+msgstr ""
+
+#: ../admin/obits.php:69
+msgid "No posts Found"
+msgstr ""
+
+#: ../admin/obits.php:208
+msgid "Obit"
+msgstr ""
+
+#: ../admin/obits.php:212
+msgid "QR Code"
+msgstr ""
+
+#: ../admin/obits.php:229
+#: ../admin/obits.php:411
+#: ../user/obits.php:65
+#: ../user/shortcodes.php:54
+#: ../user/widgets.php:189
+msgid "First Name"
+msgstr ""
+
+#: ../admin/obits.php:233
+msgid "Middle Initial"
+msgstr ""
+
+#: ../admin/obits.php:237
+#: ../admin/obits.php:411
+#: ../user/obits.php:65
+#: ../user/shortcodes.php:54
+#: ../user/widgets.php:192
+msgid "Last Name"
+msgstr ""
+
+#: ../admin/obits.php:241
+msgid "Maiden Name"
+msgstr ""
+
+#: ../admin/obits.php:245
+msgid "Birth Date"
+msgstr ""
+
+#: ../admin/obits.php:249
+#: ../admin/obits.php:411
+#: ../user/obits.php:65
+#: ../user/shortcodes.php:54
+#: ../user/widgets.php:195
+msgid "Death Date"
+msgstr ""
+
+#: ../admin/obits.php:253
+msgid "Funeral Services Date"
+msgstr ""
+
+#: ../admin/obits.php:259
+msgid "Visitation Notes"
+msgstr ""
+
+#: ../admin/obits.php:267
+msgid "Is a US Veteran?"
+msgstr ""
+
+#: ../admin/obits.php:291
+msgid "Current Photo"
+msgstr ""
+
+#: ../admin/obits.php:299
+msgid "New Photo"
+msgstr ""
+
+#: ../admin/obits.php:306
+#: ../user/obits.php:403
+#: ../user/obits.php:422
+msgid "Photo"
+msgstr ""
+
+#: ../admin/obits.php:410
+#: ../user/obits.php:64
+#: ../user/shortcodes.php:53
+#: ../user/shortcodes.php:55
+#: ../user/widgets.php:198
+msgid "Search"
+msgstr ""
+
+#: ../admin/obits.php:420
+msgid "ID"
+msgstr ""
+
+#: ../admin/obits.php:421
+msgid "Name"
+msgstr ""
+
+#: ../admin/obits.php:422
+msgid "Deceased Date"
+msgstr ""
+
+#: ../admin/obits.php:430
+#: ../user/obits.php:208
+#, php-format
+msgid "No %s Found"
+msgstr ""
+
+#: ../admin/obits.php:443
+msgid "Modify"
+msgstr ""
+
+#: ../admin/settings.php:9
+msgid "View Settings"
+msgstr ""
+
+#: ../admin/settings.php:10
+msgid "Email Text"
+msgstr ""
+
+#: ../admin/settings.php:11
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/settings.php:14
+msgid "Settings"
+msgstr ""
+
+#: ../admin/settings.php:24
+msgid "You are currently using custom css! If you wish to reset back to default css please delete the obits.css in your template directory"
+msgstr ""
+
+#: ../admin/settings.php:28
+msgid "If you would like to create custom css, copy the css code below. Open your template folder and create a file called obits.css. Paste the css in the file and upload. The plugin will detect the custom css file exists and will use that file instead."
+msgstr ""
+
+#: ../admin/settings.php:34
+msgid "Create this custom css file"
+msgstr ""
+
+#: ../admin/settings.php:55
+msgid "Saved Your Settings"
+msgstr ""
+
+#: ../admin/settings.php:66
+msgid "Admin posting email"
+msgstr ""
+
+#: ../admin/settings.php:66
+msgid "This is the admin email when a new posting has been entered."
+msgstr ""
+
+#: ../admin/settings.php:68
+#: ../admin/settings.php:77
+#: ../admin/settings.php:88
+msgid "Obit Name"
+msgstr ""
+
+#: ../admin/settings.php:69
+#: ../admin/settings.php:78
+#: ../admin/settings.php:89
+msgid "Obit Page"
+msgstr ""
+
+#: ../admin/settings.php:70
+#: ../admin/settings.php:79
+#: ../admin/settings.php:90
+msgid "Users Name"
+msgstr ""
+
+#: ../admin/settings.php:71
+msgid "Approval Page"
+msgstr ""
+
+#: ../admin/settings.php:72
+#: ../admin/settings.php:83
+#: ../admin/settings.php:92
+msgid "Subject"
+msgstr ""
+
+#: ../admin/settings.php:75
+msgid "User posting email"
+msgstr ""
+
+#: ../admin/settings.php:75
+msgid "This is the email which is sent to the user after they enter a posting"
+msgstr ""
+
+#: ../admin/settings.php:86
+msgid "User approved email"
+msgstr ""
+
+#: ../admin/settings.php:86
+msgid "This is the email that is sent to the user after their posting has been approved"
+msgstr ""
+
+#: ../admin/settings.php:139
+msgid "Obit Display type"
+msgstr ""
+
+#: ../admin/settings.php:139
+msgid "There are 3 different styles to display your obits. Thumbnail mode, block mode and list mode. Check out each style and choose the best one for your website"
+msgstr ""
+
+#: ../admin/settings.php:142
+#: ../user/widgets.php:136
+msgid "Thumbnails"
+msgstr ""
+
+#: ../admin/settings.php:143
+msgid "Block"
+msgstr ""
+
+#: ../admin/settings.php:144
+#: ../user/widgets.php:136
+msgid "List"
+msgstr ""
+
+#: ../admin/settings.php:149
+msgid "Enable Search?"
+msgstr ""
+
+#: ../admin/settings.php:149
+msgid "Should we add a search form to the top of the obits page?"
+msgstr ""
+
+#: ../admin/settings.php:154
+msgid "How many Obituaries to display"
+msgstr ""
+
+#: ../admin/settings.php:154
+msgid "How many obits should we display on each page?"
+msgstr ""
+
+#: ../admin/settings.php:158
+msgid "Word for Obituaries"
+msgstr ""
+
+#: ../admin/settings.php:158
+msgid "What should we call Obituaries?"
+msgstr ""
+
+#: ../admin/settings.php:162
+msgid "Plural Word for Obituaries"
+msgstr ""
+
+#: ../admin/settings.php:162
+msgid "The plural word for the word you chose for obituaries. Example: If you chose Obituary then you would write Obituaries here."
+msgstr ""
+
+#: ../admin/settings.php:166
+msgid "Order Flowers link"
+msgstr ""
+
+#: ../admin/settings.php:166
+msgid "There are many different flower affiliate programs available online. If you would like your users to order flowers put the full url for your flowers affiliate program. If you leave it blank the order flowers link will not show."
+msgstr ""
+
+#: ../admin/settings.php:170
+msgid "No pic image"
+msgstr ""
+
+#: ../admin/settings.php:170
+msgid "Upload a default picture we should use incase the deceased does not have a picture."
+msgstr ""
+
+#: ../admin/settings.php:176
+msgid "No default pictured loaded, please upload one."
+msgstr ""
+
+#: ../user/obits.php:115
+msgid "Service Date"
+msgstr ""
+
+#: ../user/obits.php:217
+#: ../user/shortcodes.php:65
+msgid "Veteran"
+msgstr ""
+
+#: ../user/obits.php:392
+#, php-format
+msgid "Thank you for adding your guestbook message, your message is now awaiting approval. Once approved you will receive an email and the message will appear on %s's guestbook page. Click here to return to the guestbook."
+msgstr ""
+
+#: ../user/obits.php:404
+msgid "Youtube"
+msgstr ""
+
+#: ../user/obits.php:412
+#, php-format
+msgid "Leave a message or tribute for %s"
+msgstr ""
+
+#: ../user/obits.php:419
+#, php-format
+msgid "Upload your photo  for %s"
+msgstr ""
+
+#: ../user/obits.php:424
+msgid "Write something about this photo"
+msgstr ""
+
+#: ../user/obits.php:430
+msgid "Put the full youtube link below"
+msgstr ""
+
+#: ../user/obits.php:433
+msgid "Youtube Link"
+msgstr ""
+
+#: ../user/obits.php:434
+msgid "Write something about this video"
+msgstr ""
+
+#: ../user/obits.php:440
+msgid "Check to hide your name"
+msgstr ""
+
+#: ../user/obits.php:441
+msgid "Add Message"
+msgstr ""
+
+#: ../user/obits.php:479
+#, php-format
+msgid "Add Message for %s"
+msgstr ""
+
+#: ../user/obits.php:484
+msgid "Anonymous"
+msgstr ""
+
+#: ../user/obits.php:492
+msgid "Posted on"
+msgstr ""
+
+#: ../user/obits.php:565
+msgid "Order Flowers"
+msgstr ""
+
+#: ../user/shortcodes.php:95
+msgid "View More"
+msgstr ""
+
+#: ../user/widgets.php:129
+#: ../user/widgets.php:158
+msgid "Title"
+msgstr ""
+
+#: ../user/widgets.php:131
+msgid "Style"
+msgstr ""
+
+#: ../user/widgets.php:136
+msgid "Blocks"
+msgstr ""
+
+#: ../user/widgets.php:137
+msgid "How many to display?"
+msgstr ""
+
+#: ../user/widgets.php:159
+msgid "Text before the form"
+msgstr ""
+
+#: ../user/widgets.php:160
+msgid "Enable First Name Field?"
+msgstr ""
+
+#: ../user/widgets.php:161
+msgid "Enable Last Name Field?"
+msgstr ""
+
+#: ../user/widgets.php:162
+msgid "Enable Burial Date Field?"
+msgstr ""
+
